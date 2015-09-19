@@ -36,11 +36,11 @@ public class LinearHashTable {
 		else {
 			// initialise probe to next spot
 			if (code == (table.length - 1))
-				probe = 0;
+				probe = 0; 
 			else
 				probe = code + 1;
 		}
-
+ 
 		// keep probing while data hasn't been stored, and it
 		// hasn't looped back to the original item
 		while ((probe != -1) && (probe != code)) {
