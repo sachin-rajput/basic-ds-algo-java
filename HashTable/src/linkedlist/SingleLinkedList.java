@@ -21,8 +21,8 @@ public class SingleLinkedList implements DynamicListStructure{
 	@Override
 	public void add(Object data) {
 		// TODO Auto-generated method stub
-		if(head==null){
-			head = new Node(data);
+		if(this.head==null){
+			this.head = new Node(data);
 		} else {
 			Node current = this.head;
 			while(current!=null){
